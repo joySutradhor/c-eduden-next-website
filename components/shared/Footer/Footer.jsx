@@ -45,8 +45,8 @@ const Footer = () => {
     },
     {
       
-      text: "Ollent",
-      href: "#",
+      text: "Corvtron",
+      href: "https://corvtron.com/",
     },
   ];
 
