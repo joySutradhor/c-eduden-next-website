@@ -2,12 +2,12 @@ export const faculty = [
   {
     name: "Fardeen Ahmed",
     slug: "fardeen-ahmed",
-    title: "Cyber Security Expert",
+    title: "Co-founder & CEO",
     about:
       "Fardeen Ahmed is a seasoned cybersecurity and technology professional with over nine years of teaching experience and deep technical expertise across multiple domains. As Co-Founder and CEO of Eduden, he plays a pivotal role in designing and delivering practical, industry-aligned training programs in cybersecurity, ethical hacking, and advanced technology stacks.",
     image:
       "https://ik.imagekit.io/ckncpdy03/Ethical%20den%20-%20gsap/About%20page/Fardeen.webp?updatedAt=1750088729835",
-    expertise: ["Cybersecurity", "Ethical Hacking", "Network Security"],
+    expertise: ["Cybersecurity", "Ethical Hacking", "Network Security", ],
     des: [
       "Over the years, Fardeen has held leadership and technical roles including Senior Penetration Tester at Amazon and Head of Cyber Security at Analogica Software Dev Pvt Ltd. His career spans offensive security, infrastructure defense, and enterprise IT training. He also leads operations at Ethical Den as Founder and CEO, and is at the helm of Hivyr.ai, a venture focused on AI-driven automation solutions.",
 

@@ -10,10 +10,11 @@ const menuItems = [
   { name: 'Home', path: '/' },
   { name: 'About Us', path: '/about' },
   { name: 'Courses', path: '/courses' },
+  { name: 'Know Your Faculty', path: '/faculty-member' },
   { name: "What's New", path: '/whats-new' },
   { name: 'Verify', path: '/verify' },
   { name: 'Contact Us', path: '/contact' },
-  { name: 'Know Your Faculty', path: '/faculty-member' }
+  
 ]
 
 const Navbar = () => {

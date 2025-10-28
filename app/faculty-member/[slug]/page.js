@@ -20,12 +20,12 @@ export default function PortfolioPage() {
 
       {/* Main Content */}
       <div className="space-y-10 edn__lr__space edn__space__top">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-10 items-center">
           {/* Image */}
           <img
             src={person.image}
             alt={person.name}
-            className="w-full h-64 md:h-full rounded-xl object-cover object-top shadow-lg"
+            className="w-full h-64 md:h-[85vh] rounded-xl object-cover object-center shadow-lg"
           />
 
           {/* Details */}
@@ -61,13 +61,11 @@ export default function PortfolioPage() {
                 <h2 className="text-2xl md:text-3xl mb-4 font-semibold text-white">
                   See More Insights
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div className="space-y-5">
                   {person.des.map((item, index) => (
                     <div
                       key={index}
-                      className={`border border-white/10 p-5 rounded-md shadow transition-all ease-in-out duration-500 ${
-                        index === 0 ? "" : "blur-sm hover:blur-0"
-                      }`}
+                      className={``}
                     >
                       <p className="text-gray-300">{item}</p>
                     </div>
